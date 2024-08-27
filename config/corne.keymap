@@ -21,10 +21,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T            &kp Y      &kp U      &kp I      &kp O    &kp P     &kp ESC
-&kp LCTRL  &kp A  &kp S  &kp D     &kp F  &kp G            &kp H      &kp J      &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C     &kp V  &kp B            &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_ALT
-                         &kp LGUI  &mo 1  &kp BACKSPACE    &kp SPACE  &kp ENTER  &mo 2
+&kp TAB         &kp Q  &kp W  &kp E     &kp R  &kp T            &kp Y      &kp U      &kp I      &kp O    &kp P     &kp ESC
+&kp LEFT_SHIFT  &kp A  &kp S  &kp D     &kp F  &kp G            &kp H      &kp J      &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LCTRL       &kp Z  &kp X  &kp C     &kp V  &kp B            &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_ALT
+                              &kp LGUI  &mo 1  &kp BACKSPACE    &kp SPACE  &kp ENTER  &mo 2
             >;
         };
 
@@ -36,10 +36,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB     &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT    &kp LCTRL       &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
-&bt BT_CLR  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5         &kp MINUS       &kp EQUAL      &kp GRAVE     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
-&kp LSHFT   &kp NUMBER_6     &kp N7        &kp N8        &kp N9        &kp N0         &kp UNDERSCORE  &kp PLUS       &kp TILDE     &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
-                                           &kp LGUI      &trans        &kp SPACE      &kp SPACE       &kp BACKSPACE  &kp RALT
+&kp TAB         &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT    &kp LCTRL       &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
+&kp LEFT_SHIFT  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5         &kp MINUS       &kp EQUAL      &kp GRAVE     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
+&bt BT_CLR      &kp NUMBER_6     &kp N7        &kp N8        &kp N9        &kp N0         &kp UNDERSCORE  &kp PLUS       &kp TILDE     &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
+                                               &kp LGUI      &trans        &kp SPACE      &kp SPACE       &kp BACKSPACE  &kp RALT
             >;
         };
 
